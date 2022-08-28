@@ -1,0 +1,91 @@
+:root {
+	--tile-height: 20px;
+	--tile-width: 100px;
+
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.controls {
+	border-bottom: 2px outset #666;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+
+.controls label {
+	margin-right: 15px;
+}
+
+label>input {
+	margin: 0 5px;
+	padding: 2px;
+}
+
+.towers {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+
+.tower {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	/*position: relative;*/
+	background-image: url(./pole.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25px 100%;
+	width: var(--tile-width);
+	gap: 10px;
+	align-items: center;
+	padding: 10px 5px 0 5px;
+}
+
+.tile {
+	height: var(--tile-height);
+	width: var(--tile-width);
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	overflow: hidden;
+	background-color: lightblue;
+}
+
+.tile:nth-child(0) {
+	width: 50%;	
+}
+.tile:nth-child(1) {
+	width: 55%;	
+}
+.tile:nth-child(2) {
+	width: 60%;	
+}
+.tile:nth-child(3) {
+	width: 65%;	
+}
+.tile:nth-child(4) {
+	width: 70%;	
+}
+.tile:nth-child(5) {
+	width: 75%;	
+}
+.tile:nth-child(6) {
+	width: 80%;	
+}
+.tile:nth-child(7) {
+	width: 85%;	
+}
+.tile:nth-child(8) {
+	width: 90%;	
+}
+.tile:nth-child(9) {
+	width: 95%;	
+}
+.tile:nth-child(10) {
+	width: 100%;	
+}
+.tile:nth-child(11) {
+	width: 105%;	
+}
+.tile:nth-child(12) {
+	width: 110%;	
+}

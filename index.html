@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css"  href="./hanoi.css" />
+	<script src="./jquery.min.js"></script>
+	<script src="./hanoi.js" type="module"></script>
+</head>
+
+<body>
+	<div class="controls">
+		<label>Number of tiles<input id="ntowers" type="number" min="3" max="11" value="3"/></label>
+		<label>Delay (seconds)<input id="ndelay" type="number" min="0.1" max="2" value="1" step="0.1"/></label>
+		<button id="btn-go">Go</button>
+	</div>
+	<div class="towers">
+		<div class="tower" data-index="0"></div>
+		<div class="tower" data-index="1"></div>
+		<div class="tower" data-index="2"></div>
+	</div>
+
+</body>
+
+</html>
